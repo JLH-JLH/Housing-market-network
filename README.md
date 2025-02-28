@@ -15,7 +15,7 @@ This repository contains MATLAB code for performing **Multivariate Granger Causa
 
 ## Installation Guide
 1. **Install MATLAB** (2024a or later recommended).
-2. **Download and install the MVGC Toolbox** from:  
+2. **Download and install the MVGC Toolbox (Barnett and Seth, 2014)** from:  
    [MVGC Toolbox](https://users.sussex.ac.uk/~lionelb/MVGC/html/mvgchelp.html).
 3. Ensure the **Statistics and Machine Learning Toolbox** and **Signal Processing Toolbox** are installed in MATLAB.
 4. Place the dataset **CSV files** in the directory specified in the script (Example)`C:/Users/aidan/OneDrive/Desktop/Centrality metrics/MVGC`).
