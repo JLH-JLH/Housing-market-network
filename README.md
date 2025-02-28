@@ -6,6 +6,7 @@
 This repository contains MATLAB code for performing **Multivariate Granger Causality (MVGC) analysis** on the log returns of housing price indices across different cities. The results are stored as a **Granger causality matrix**, which identifies causal relationships between housing markets.
 
 ## System Requirements
+- No special hardware requirements. The script can run on any modern desktop/laptop.
 - **MATLAB** (Tested on MATLAB 2024a)
 - **Dependencies**:
   - [MVGC Toolbox for MATLAB](https://users.sussex.ac.uk/~lionelb/MVGC/html/mvgchelp.html)
@@ -24,7 +25,9 @@ This repository contains MATLAB code for performing **Multivariate Granger Causa
 - MATLAB and required toolboxes: **5-10 minutes**
 - MVGC Toolbox installation: **2-5 minutes**
 
-## Usage
+## Instructions
+### Data
+The full sammple data is provided in the [data folder] of this repository
 ### Running the MVGC Analysis
 1. Store the CSV files containing **time series housing price indices** in the appropriate folder.
 2. Update the `folder` variable in the script if necessary.
@@ -60,6 +63,7 @@ This repository contains MATLAB code for performing **Multivariate Granger Causa
 This repository contains an **R script** for computing various **centrality metrics** from directed graphs using the `igraph` package. The script reads **node and arc data**, constructs graphs, calculates centrality metrics, and saves the results as CSV files.
 
 ## System Requirements
+- No special hardware requirements. The script can run on any modern desktop/laptop.
 - **R Version:** Tested on R 4.3.2
 - **Required R Packages:**
   - `igraph` (will be installed automatically if not found)
@@ -86,7 +90,9 @@ This repository contains an **R script** for computing various **centrality metr
 
 ---
 
-## Usage
+## Instructions
+### Data
+The full sammple data is provided in the [data folder] of this repository
 ### Running the Centrality Analysis
 1. **Ensure the working directory is set correctly** in the script.
 2. **Place the input files (`Node.csv` and `Arc_*.csv`) in the directory**.
