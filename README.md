@@ -101,3 +101,21 @@ This repository contains an **R script** for computing various **centrality metr
   - **Hub Score** (`Hub`)
   - **Authority Score** (`Authority`)
 - The results are saved as CSV files with the naming format:
+
+### Expected Run Time
+- Using the provided data, the expected run time is 0.48 seconds.
+
+## File Descriptions
+- **`centrality_analysis.R`** - Main R script for computing centrality metrics.
+- **Input Files:**
+- `Node.csv` - Contains node information (labels and attributes).
+- `Arc_*.csv` - Multiple files containing directed edges (source, target, weights).
+- **Output Files:**
+- `Arc_XYZ_centrality_metrics.csv` - Contains the computed centrality metrics for each arc file.
+
+## Example Output Format (Centrality Metrics)
+| Label  | InDegree | OutDegree | Eigenvector | Hub  | Authority |
+|--------|---------|----------|-------------|------|-----------|
+| City A | 2.45    | 3.20     | 0.45        | 0.78 | 0.92      |
+| City B | 1.30    | 2.10     | 0.32        | 0.62 | 0.81      |
+| City C | 4.10    | 1.80     | 0.51        | 0.89 | 0.71      |
