@@ -1,6 +1,6 @@
 # Housing-market-network
 
-# (1) MVGC Analysis for Housing Market Network
+# (1) MVGC Analysis for apartment price indexes
 
 ## Overview
 This repository contains MATLAB code for performing **Multivariate Granger Causality (MVGC) analysis** on the log returns of housing price indices across different cities. The results are stored as a **Granger causality matrix**, which identifies causal relationships between housing markets.
@@ -58,7 +58,7 @@ The data consists of apartment price index from 30 metropolitan cities.
 | **City B** | 0.25   | 0.00   | 0.08   |
 | **City C** | 0.12   | 0.20   | 0.00   |
 
-# (2) Centrality Metrics Analysis Using `igraph` in R
+# (2) Centrality Metrics Analysis
 
 ## Overview
 This repository contains an **R script** for computing various **centrality metrics** from directed graphs using the `igraph` package. The script reads **node and arc data**, constructs graphs, calculates centrality metrics, and saves the results as CSV files.
