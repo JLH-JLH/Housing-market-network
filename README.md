@@ -1,6 +1,6 @@
 # Housing-market-network
 
-# MVGC Analysis for Housing Market Network
+# (1) MVGC Analysis for Housing Market Network
 
 ## Overview
 This repository contains MATLAB code for performing **Multivariate Granger Causality (MVGC) analysis** on the log returns of housing price indices across different cities. The results are stored as a **Granger causality matrix**, which identifies causal relationships between housing markets.
@@ -40,7 +40,7 @@ This repository contains MATLAB code for performing **Multivariate Granger Causa
   - Save the **MVGC results** as a CSV file (`MVGC_results.csv`).
 
 ### Expected Run Time
-- **Data processing and Granger causality computation:** 2-5 minutes (depending on data size).
+- Using the provided data, the expected run time is 0.52 seconds.
 
 ## File Descriptions
 - **`MVGC_analysis.m`** - MATLAB script for MVGC computation.
