@@ -54,26 +54,3 @@ This repository contains MATLAB code for performing **Multivariate Granger Causa
 | **City B** | 0.25   | 0.00   | 0.08   |
 | **City C** | 0.12   | 0.20   | 0.00   |
 
-## Troubleshooting
-### Common Issues and Solutions
-- **Missing Dependencies**
-  - Ensure **MVGC Toolbox** is correctly installed and added to the MATLAB path.
-  - Verify that MATLAB includes the **Statistics and Machine Learning Toolbox** and **Signal Processing Toolbox**.
-
-- **Incorrect Data Path**
-  - Ensure the CSV files are located in the correct folder.
-  - Update the `folder` variable in the script if needed.
-
-## Reproducibility
-This script can be used to reproduce results with different datasets by updating the **input CSV files**. Ensure each CSV file includes a column named **"Index"**, which contains the housing price index values.
-
-## License
-This project is licensed under the **MIT License**. See the `LICENSE` file for details.
-
-## Acknowledgments
-- [MVGC Toolbox](https://users.sussex.ac.uk/~lionelb/MVGC/html/mvgchelp.html) by Lionel Barnett
-- Data sourced from official real estate records
-
----
-
-Let me know if you need any modifications! 😊
