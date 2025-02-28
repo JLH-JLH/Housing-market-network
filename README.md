@@ -3,7 +3,7 @@
 # (1) MVGC Analysis for apartment price indexes
 
 ## Overview
-This repository contains MATLAB code for performing **Multivariate Granger Causality (MVGC) analysis** on the log returns of housing price indices across different cities. The results are stored as a **Granger causality matrix**, which identifies causal relationships between housing markets.
+This repository contains MATLAB code for performing **Multivariate Granger Causality (MVGC) analysis** on the log returns of housing price indices across different cities. The results are stored as a **Multivariate Granger causality matrix**, which identifies causal relationships between housing markets.
 
 ## System Requirements
 - No special hardware requirements. The script can run on any modern desktop/laptop.
