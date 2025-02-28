@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Jung"
+  given-names: "Leehyun"
+  orcid: "https://orcid.org/0009-0008-2040-747X"
+title: "Housing-market-network"
+version: 1.0.0
+doi: 10.5281/zenodo.1234
+date-released: 2025-02-27
+url: "https://github.com/JLH-JLH/Housing-market-network"
