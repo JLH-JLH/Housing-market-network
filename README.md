@@ -18,7 +18,7 @@ This repository contains MATLAB code for performing **Multivariate Granger Causa
 2. **Download and install the MVGC Toolbox** from:  
    [MVGC Toolbox](https://users.sussex.ac.uk/~lionelb/MVGC/html/mvgchelp.html).
 3. Ensure the **Statistics and Machine Learning Toolbox** and **Signal Processing Toolbox** are installed in MATLAB.
-4. Place the dataset **CSV files** in the directory specified in the script (`C:/Users/aidan/OneDrive/Desktop/Centrality metrics/MVGC`).
+4. Place the dataset **CSV files** in the directory specified in the script (Example)`C:/Users/aidan/OneDrive/Desktop/Centrality metrics/MVGC`).
 5. Update the `folder` variable in the script if needed.
 
 ### Typical Installation Time
@@ -47,9 +47,9 @@ The data consists of apartment price index from 30 metropolitan cities.
 - Using the provided data, the expected run time is 0.52 seconds.
 
 ## File Descriptions
-- **`MVGC_analysis.m`** - MATLAB script for MVGC computation.
+- **`MVGC.m`** - MATLAB script for MVGC computation.
 - **Input CSV Files** - Contain housing price index time series data for different cities.
-- **Output File (`MVGC_results.csv`)** - Granger causality matrix (rows: "from" city, columns: "to" city).
+- **Output File (`MVGC_results.csv`)** - Multivariate Granger causality matrix (rows: "from" city, columns: "to" city).
 
 ## Example Output Format (MVGC Matrix)
 |   | City A | City B | City C |
