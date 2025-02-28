@@ -44,7 +44,7 @@ The data consists of apartment price index from 30 metropolitan cities.
   - Save the **MVGC results** as a CSV file (`MVGC_results.csv`).
 
 ### Expected Run Time
-- Using the provided data, the expected run time is 0.52 seconds.
+- Using the provided data, the expected run time is less than 5 seconds.
 
 ## File Descriptions
 - **`MVGC.m`** - MATLAB script for MVGC computation.
@@ -111,7 +111,7 @@ The data file is processed from the MVGC results, in a form that is accessible i
 - The results are saved as CSV files with the naming format:
 
 ### Expected Run Time
-- Using the provided data, the expected run time is 0.48 seconds.
+- Using the provided data, the expected run time is less than 5 seconds.
 
 ## File Descriptions
 - **`centrality_analysis.R`** - Main R script for computing centrality metrics.
