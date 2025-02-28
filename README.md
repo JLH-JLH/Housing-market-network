@@ -27,7 +27,7 @@ This repository contains MATLAB code for performing **Multivariate Granger Causa
 
 ## Instructions
 ### Data
-The full sammple data is provided in the [data folder] of this repository
+The full sammple data is provided in the [Apartment_index_full_period] folder of this repository
 ### Running the MVGC Analysis
 1. Store the CSV files containing **time series housing price indices** in the appropriate folder.
 2. Update the `folder` variable in the script if necessary.
@@ -92,7 +92,7 @@ This repository contains an **R script** for computing various **centrality metr
 
 ## Instructions
 ### Data
-The full sammple data is provided in the [data folder] of this repository
+The arc and node data is provided in the [Centality metrics] folder of this repository
 ### Running the Centrality Analysis
 1. **Ensure the working directory is set correctly** in the script.
 2. **Place the input files (`Node.csv` and `Arc_*.csv`) in the directory**.
