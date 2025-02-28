@@ -9,7 +9,7 @@ This repository contains MATLAB code for performing **Multivariate Granger Causa
 - No special hardware requirements. The script can run on any modern desktop/laptop.
 - **MATLAB** (Tested on MATLAB 2024a)
 - **Dependencies**:
-  - [MVGC Toolbox for MATLAB](https://users.sussex.ac.uk/~lionelb/MVGC/html/mvgchelp.html) (Barnett and Seth, 2014)(https://www.sciencedirect.com/science/article/abs/pii/S0165027013003701?via%3Dihub)
+  - [MVGC Toolbox for MATLAB](https://users.sussex.ac.uk/~lionelb/MVGC/html/mvgchelp.html) [(Barnett and Seth, 2014)](https://www.sciencedirect.com/science/article/abs/pii/S0165027013003701?via%3Dihub)
   - Statistics and Machine Learning Toolbox
   - Signal Processing Toolbox
 
